@@ -54,9 +54,23 @@ header a{
     text-decoration: none;
     color: white;
 }
+.links{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin: 0 4px;
+}
+.link:hover{
+    text-decoration: underline;
+}
 .fa-brands{
     font-size: 25px;
-    margin: 5px;
+    margin: 0 5px;
+}
+.fa-brands{
+    font-size: 25px;
+    margin: 0 5px;
 }
 img{
     width: 100%;

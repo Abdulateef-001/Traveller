@@ -54,18 +54,30 @@ header a{
     text-decoration: none;
     color: white;
 }
+.links{
+    display: flex;
+    align-items: center;
+}
+.link{
+    margin: 0 4px;
+}
+.link:hover{
+    text-decoration: underline;
+}
 .fa-brands{
     font-size: 25px;
-    margin: 5px;
+    margin: 0 5px;
 }
 .container{
     display: flex;
     justify-content: space-around;
     padding: 10px 20px;
+    /* align-items: center; */
 
 }
 .fa{
     color: orangered;
+    font-size: 14px;
 }
 .box{
     margin: 20px 10px;
@@ -80,13 +92,31 @@ header a{
 form input{
     width: 100%;
     height: 40px;
+    font-size: medium;
     border: none;
     padding: 0 8px;
-    /* outline: none; */
+    outline: none;
 }
-/* form input :focus{
+.focus:focus{
     border-bottom: 1px solid orangered;
-} */
+    /* box-shadow: 0 1px 0 orangered;     */
+}
+.focus:hover{
+    background: rgba(233, 228, 228, 0.932);
+}
+form textarea{
+    padding: 4px 6px;
+    font-size: 14px;
+    background-color: #ffffff80;
+    border: 1px solid rgb(45, 46, 43);
+    
+}
+.box input[type='submit']{
+    background: orangered;
+    color: white;
+    font-weight: bold;
+    margin: 7px auto;
+}
 footer{
     background: rgb(45, 46, 43);
     color: white;
